@@ -15,9 +15,9 @@
         "illuminate/support": "~5.2"
     },
     "autoload": {
-        "psr-4": [
+        "psr-4": {
             "Fewdji\\IICache\\": "src/"
-        ]
+        }
     },
     "extra": {
         "laravel": {
