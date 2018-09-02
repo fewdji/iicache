@@ -1,0 +1,29 @@
+{
+    "name": "fewdji/ii-cache",
+    "description": "Caching extension for the Laravel and Intervention Image Package.",
+    "keywords": ["ii-cache", "image", "cache", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fewdji",
+            "email": "fewdji@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "intervention/image": "~2.4",
+        "illuminate/support": "~5.2"
+    },
+    "autoload": {
+        "psr-4": [
+            "Fewdji\\IICache\\": "src/"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fewdji\\IICache\\IICacheServiceProvider"
+            ]
+        }
+    }
+}
