@@ -4,7 +4,7 @@ return [
 
     'driver' => 'gd',
 
-    'images_path' => 'storage/images',
+    'images_path' => 'images',
 
     'presets' => [
         'hq' => [

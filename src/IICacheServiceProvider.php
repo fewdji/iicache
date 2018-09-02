@@ -26,9 +26,12 @@ class IICacheServiceProvider extends ServiceProvider {
 
     public function register()
     {
+        $this->mergeConfigFrom(
+            __DIR__ . '/config/ii-cache.php', 'ii-cache'
+        );
+
         App::singleton('image', function(){
-            return new \Fewdji\IICache\IICache();
+            return new \Fewdji\IICache\IICacheImageLink();
         });
     }
-
 }
