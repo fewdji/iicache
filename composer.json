@@ -1,7 +1,7 @@
 {
-    "name": "fewdji/ii-cache",
+    "name": "fewdji/iicache",
     "description": "Caching extension for the Laravel and Intervention Image Package.",
-    "keywords": ["ii-cache", "image", "cache", "laravel"],
+    "keywords": ["iicache", "image", "cache", "laravel"],
     "license": "MIT",
     "authors": [
         {
